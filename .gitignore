@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# 모델 파일 및 데이터
+models/
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.joblib
+*.pkl
+
+# Docker
+*.log
+
+# 기타
+*.sqlite3
+*.db
+
+# 테스트 결과
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
